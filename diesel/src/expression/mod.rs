@@ -24,6 +24,8 @@ pub(crate) mod array_comparison;
 pub mod array_comparison;
 pub(crate) mod assume_not_null;
 pub(crate) mod bound;
+#[macro_use]
+pub mod coalesce;
 mod coerce;
 pub(crate) mod count;
 #[cfg(not(feature = "i-implement-a-third-party-backend-and-opt-into-breaking-changes"))]
